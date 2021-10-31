@@ -16,13 +16,11 @@
         <Label Content="ราคาสินค้าที่อยากได้" HorizontalAlignment="Left" Height="37" Margin="34,104,0,0" VerticalAlignment="Top" Width="176" FontSize="20" Cursor=""/>
         <TextBox x:Name="txtResult" HorizontalAlignment="Left" Height="28" Margin="283,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" IsEnabled="False" TextChanged="txtResult_TextChanged"/>
         <Label Content="จำนวนวันที่สามารถชื้อสินค้าได้" HorizontalAlignment="Left" Height="37" Margin="34,234,0,0" VerticalAlignment="Top" Width="242" FontSize="20" Cursor="" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Left"/>
-        <Button Content="คำนวน" HorizontalAlignment="Left" Margin="112,155,0,0" VerticalAlignment="Top" Width="242" Click="Button_Click"/>
+        <Button Content="คำนวน" HorizontalAlignment="Left" Margin="143,180,0,0" VerticalAlignment="Top" Width="242" Click="Button_Click"/>
         <Label Content="วัน" HorizontalAlignment="Left" Height="38" Margin="390,236,0,0" VerticalAlignment="Top" Width="35" FontSize="20" Cursor=""/>
         <Label Content="บาท" HorizontalAlignment="Left" Height="38" Margin="398,103,0,0" VerticalAlignment="Top" Width="42" FontSize="20" Cursor=""/>
         <Label Content="บาท" HorizontalAlignment="Left" Height="38" Margin="398,71,0,0" VerticalAlignment="Top" Width="42" FontSize="20" Cursor=""/>
         <Label Content="บาท" HorizontalAlignment="Left" Height="38" Margin="398,35,0,0" VerticalAlignment="Top" Width="42" FontSize="20" Cursor=""/>
         <TextBlock x:Name="Discription" HorizontalAlignment="Left"  Height="25" Margin="192,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="258" FontSize="12" Foreground="Red"/>
-        <TextBox x:Name="txtTotalPrice" HorizontalAlignment="Left" Height="28" Margin="283,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" IsEnabled="False" TextChanged="txtResult_TextChanged"/>
-        <Label Content="บาท" HorizontalAlignment="Left" Height="38" Margin="398,195,0,0" VerticalAlignment="Top" Width="42" FontSize="20" Cursor=""/>
     </Grid>
 </Window>
